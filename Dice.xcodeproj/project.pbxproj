@@ -51,6 +51,7 @@
 		6054524C2858780C00F400E3 /* Dice */ = {
 			isa = PBXGroup;
 			children = (
+				6054525B2858885300F400E3 /* Components */,
 				6054524D2858780C00F400E3 /* DiceApp.swift */,
 				6054524F2858780C00F400E3 /* ContentView.swift */,
 				605452512858780D00F400E3 /* Assets.xcassets */,
@@ -65,6 +66,13 @@
 				605452542858780D00F400E3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6054525B2858885300F400E3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +270,8 @@
 		605452592858780D00F400E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Dice/Preview Content\"";
@@ -291,8 +299,8 @@
 		6054525A2858780D00F400E3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Dice/Preview Content\"";
